@@ -11,6 +11,6 @@
             <article>##yield##</article>
         </main>
         <?= File::i('components/footer.php')->get_content() ?>
-        <?= File::i('components/js_handler.php')->get_content() ?>
+        <?= File::i('components/js_includes.php')->get_content() ?>
     </body>
 </html>

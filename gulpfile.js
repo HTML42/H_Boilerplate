@@ -5,10 +5,9 @@ var config = {
         'xtreme/-init/files/less/html42/gdprx.less',
         'less/settings.less',
         'less/base.less',
-        'less/elements/header.less',
-        'less/elements/navigation.less',
-        'less/elements/box.less',
-        'less/elements/buttons.less'
+        'less/jquery-ui.css',
+        'less/elements/*',
+        'less/pages/*'
     ],
     js: [
         'xtreme/-init/files/js/jquery/jquery-3.1.0.js',
@@ -17,6 +16,8 @@ var config = {
         'xtreme/-init/files/js/html42/xtreme.js',
         'xtreme/-init/files/js/html42/technologies/list_length.js',
         'xtreme/-init/files/js/html42/technologies/ajax_links.js',
+        'js/elements/*',
+        'js/pages/*',
         'js/project.js'
     ]
 };

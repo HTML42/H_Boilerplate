@@ -9,8 +9,9 @@ Xtreme_startup_calls.push(function () {
     });
     //
     //###GDPR related Scripts
+    GX_lib.analytics.default=true;
     window.gx = new GDPRX('de');
-    //gx.add_script(GX_predefined.analytics('UA-121676401-1', null, 'de'));
+    gx.add_script(GX_predefined.analytics('UA-NNN', null, 'de'));
     /*gx.add_script(GX_predefined.maps(window.google_api_key, ['places'], function () {
         on_maps_start();
     }, 'de'));*/
